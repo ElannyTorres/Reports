@@ -1,24 +1,10 @@
 # tkambio
 
-## Project setup
-```
-npm install
-```
+## Información del Proyecto
+Página web que nos permite observar el historial de reporte así como generar nuevos.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Información Técnica del Proyecto
+Proyecto desarrollado con Vue.js, VanillaJS.
+Se puede observar la pantalla con el historial de reportes generados, sus fechas y la opción de descarga.
+Para generar un nuevo reporte se implementó un modal, que nos permite tener comunicación entre componentes padres a hijos y viceversa.
+Se usó data estática y localstorage para poder obtener datos generales y la creación de nuevos.
